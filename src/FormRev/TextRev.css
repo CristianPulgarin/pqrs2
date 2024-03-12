@@ -1,0 +1,60 @@
+.conte{
+    background-color: white;
+    width: 64.5%;
+    margin-left: 20%;
+    height: 740px;
+    margin-top: 10px;
+    border-radius: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.fecha{
+    font-size: 20px;
+    padding: 20px;
+    
+}
+
+.encabezado{
+    margin-top: 20px;
+    padding: 20px;
+    font-size: 20px;
+  
+    
+}
+
+.text{
+
+    font-size: 20px;
+    text-align: center;
+    padding: 20px;
+
+}
+
+
+
+.datos{
+    margin-top: 20px;
+    display:inline-block;
+    justify-content: left;
+    font-size: 20px;
+    margin-left: 2%;
+    width: 50%;
+
+}
+
+.final{
+    padding: 20px;
+    text-align: center;
+    font-size: 20px;
+
+}
+
+
+.valor{
+    text-align: center;
+    font-size: 20px;
+    width: 300px;
+
+}

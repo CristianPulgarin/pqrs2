@@ -1,0 +1,48 @@
+.formulariot{
+    background-color: white;
+    width: 64.5%;
+    height: 300px;
+    margin-left: 20%;
+    border-radius: 10px;
+    margin-top: 40px;
+ }
+
+
+ .tit{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+ }
+
+.cont1{
+    margin-top: 20px;
+    display: flex;
+    margin-left: 30px;
+}
+.txtinput{
+    margin-top: 30px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.inp{
+    margin-top: 60px;
+    margin: 23px;
+    width: 260px;
+    height: 25px;
+    box-shadow: black 2px 2px 4px;
+    
+}
+
+.contbtn{
+    justify-content: center;
+    display: flex;
+}
+
+.btn{
+    font-weight: bold;
+    font-size: 30px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+}

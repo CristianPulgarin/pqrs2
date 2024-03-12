@@ -1,0 +1,53 @@
+.fondo{
+    margin: 0;
+    
+}
+
+.titulo{
+font-weight: bold;
+font-size: 50px;
+position: absolute;
+margin-top: 40px;
+margin-left: 40%;
+justify-content: center;
+
+}
+
+.fondo img{
+    display: block;
+    width: 100%;
+    height: 749px;
+
+}
+
+.form{
+    box-shadow: black -10px 10px 30px;
+    border: solid black 1px;
+    border-radius: 10px;
+    position: absolute;
+    margin-top: -41%;
+    width: 450px;
+    height: 500px;
+    margin-left: 35%;
+    background-color: white;
+}
+
+.textinput{
+    margin-top: 90px;
+    font-size: 38px;
+    font-weight: bold;
+    justify-content: center;
+    display: flex;
+}
+
+.continput{
+    margin-top: 20px;
+    justify-content: center;
+    display: flex;
+}
+
+.input{
+    border-radius: 5px;
+    width: 70%;
+    height: 30px;
+}
