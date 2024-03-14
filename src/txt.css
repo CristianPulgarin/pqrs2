@@ -1,0 +1,7 @@
+.text{
+    width: 65%;
+    background-color: white;
+    justify-content: center;
+    display: flex;
+    margin-left: 15%;
+}
