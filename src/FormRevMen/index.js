@@ -30,7 +30,7 @@ const mesTexto = meses[month]
     
   return (
     <>
-      <form onSubmit={manejarSubmit} className="formulariot">
+      <form onSubmit={manejarSubmit} className="formularioRevM">
         <div className="tit">Cuando alguien nos pidió revocatoria y siguen llegando mensajes</div>
         <div className="cont1">
 
