@@ -10,9 +10,9 @@ import { FormRevMen } from '../FormRevMen';
 function App() {
 
 
+  document.title ="Formatos PQR"
   return (
     <>
-       
   
 {/* <InicioSesion/> */}
        <Cont/>
