@@ -1,18 +1,7 @@
-import React , {useRef} from 'react'
+import React  from 'react'
 import './txt.css'
 const Ensay = () => {
 
-    const textRef = useRef(null);
-
-  const copyToClipboard = () => {
-    const range = document.createRange();
-    range.selectNode(textRef.current);
-    window.getSelection().removeAllRanges();
-    window.getSelection().addRange(range);
-    document.execCommand('copy');
-    window.getSelection().removeAllRanges();
-    alert('Texto copiado al portapapeles');
-  };
 
     const texto = `Medellín, 14 de marzo de 2024
 
