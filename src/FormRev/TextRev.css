@@ -2,7 +2,7 @@
     background-color: rgb(255, 255, 255);
     width: 64.5%;
     margin-left: 20%;
-    height: 700px;
+    height: 740px;
     margin-top: 10px;
     border-radius: 10px;
     
@@ -15,6 +15,19 @@
     padding: 20px;
     font-family: 'Times New Roman', Times, serif;
    
+}
+
+.btncopy{
+    font-size: 30px;
+    margin-left: 40%;
+    border: black solid 1px;
+    box-shadow: black 5px 5px 10px;
+    border-radius: 10px;
+}
+
+.btncopy:hover{
+    background-color: black;
+    color: white;
 }
 
 
