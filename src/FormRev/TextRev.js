@@ -18,8 +18,8 @@ const TextRev = (props) => {
   return (
     <>
     
-    <div className="conteRM" >
-   <p className="textRM" ref={textRef}> 
+    <div className="conteR" >
+   <p className="textR" ref={textRef}> 
    Medellín, {props.day} de {props.mes} de {props.year}<br/>
    <br/>
           Señor(a) {props.nombre}<br/>
@@ -38,8 +38,8 @@ const TextRev = (props) => {
           De acuerdo con la solicitud de revocar la autorización para que la Compañía trate los<br/>
           datos personales de {props.nombre}, nos permitimos comunicar que, en cumplimiento de nuestros deberes <br/>
           como Responsables del Tratamiento de los datos personales, y el compromiso adquirido<br/>
-           al momento de obtener la autorización,<br/>
-          la Compañía se abstendrá de continuar ejecutando las finalidades para las cuales había<br/>
+           al momento de obtener la autorización, la Compañía se abstendrá de continuar ejecutando<br/>
+           las finalidades para las cuales había<br/>
           capturado los datos personales, salvo en aquellos casos en que exista un deber legal o<br/>
           contractual que requieran la permanencia de los datos personales en la base de datos allí.<br/>
           <br/>
@@ -52,7 +52,7 @@ const TextRev = (props) => {
           <br/>
           Oficial de Cumplimiento de Datos Personales
 </p>
-<button className="btncopy" onClick={handleCopy}>Copiar texto</button>
+<button className="btncopyR" onClick={handleCopy}>Copiar texto</button>
       </div>
       
     <br/>

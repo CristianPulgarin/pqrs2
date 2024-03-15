@@ -1,4 +1,4 @@
-.conte{
+.conteA{
     background-color: white;
     width: 64.5%;
     margin-left: 20%;
@@ -10,49 +10,23 @@
     -moz-osx-font-smoothing: grayscale;
 }
 
-.fecha{
+
+.textA{
     font-size: 20px;
-    padding: 20px;
-    
+    text-align: justify;
+    padding: 18px;
 }
 
-.encabezado{
-    margin-top: 20px;
-    padding: 20px;
-    font-size: 20px;
-  
-    
+.btncopyA{
+    font-size: 30px;
+    margin-left: 40%;
+    border: black solid 1px;
+    box-shadow: black 5px 5px 10px;
+    border-radius: 10px;
 }
 
-.text{
-    font-size: 20px;
-    text-align: center;
-    padding: 20px;
+.btncopyA:hover{
+    background-color: black;
+    color: white;
 }
 
-
-
-.datos{
-    margin-top: 20px;
-    display:inline-block;
-    justify-content: left;
-    font-size: 20px;
-    margin-left: 2%;
-    width: 50%;
-
-}
-
-.final{
-    padding: 20px;
-    text-align: center;
-    font-size: 20px;
-
-}
-
-
-.valor{
-    text-align: center;
-    font-size: 20px;
-    width: 300px;
-
-}

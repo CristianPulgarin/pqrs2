@@ -1,4 +1,4 @@
-.conteRM{
+.conteR{
     background-color: rgb(255, 255, 255);
     width: 64.5%;
     margin-left: 20%;
@@ -9,7 +9,7 @@
 }
 
 
-.textRM{
+.textR{
     text-align: justify;
     font-size: 18px;
     padding: 20px;
@@ -17,7 +17,7 @@
    
 }
 
-.btncopy{
+.btncopyR{
     font-size: 30px;
     margin-left: 40%;
     border: black solid 1px;
@@ -25,7 +25,7 @@
     border-radius: 10px;
 }
 
-.btncopy:hover{
+.btncopyR:hover{
     background-color: black;
     color: white;
 }
