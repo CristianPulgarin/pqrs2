@@ -8,18 +8,14 @@
     
 }
 
-.textRM {
-    font-family: "Times New Roman", Times, serif;
-    font-size: 12px;
-    justify-content: center;
-    display: flex;
-    margin-left: 20%;
-     /* Espaciado entre líneas */
-    /* Otros estilos, si es necesario */
-  }
 
-.btnRM{
-    font-size: 20px;
-    text-align: center;
-    margin-left: 50%;
+.textRM{
+    text-align: justify;
+    font-size: 18px;
+    padding: 20px;
+    font-family: 'Times New Roman', Times, serif;
+   
 }
+
+
+
