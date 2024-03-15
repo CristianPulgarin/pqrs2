@@ -13,6 +13,8 @@ const TextRev = (props) => {
       .catch((err) => {
         console.error("Error al copiar texto: ", err);
       });
+
+      alert ('copiado con exito')
   };
 
   return (
@@ -39,9 +41,8 @@ const TextRev = (props) => {
           datos personales de {props.nombre}, nos permitimos comunicar que, en cumplimiento de nuestros deberes <br/>
           como Responsables del Tratamiento de los datos personales, y el compromiso adquirido<br/>
            al momento de obtener la autorización, la Compañía se abstendrá de continuar ejecutando<br/>
-           las finalidades para las cuales había<br/>
-          capturado los datos personales, salvo en aquellos casos en que exista un deber legal o<br/>
-          contractual que requieran la permanencia de los datos personales en la base de datos allí.<br/>
+           las finalidades para las cuales había capturado los datos personales, salvo en aquellos casos<br/>
+           en que exista un deber legal o contractual que requieran la permanencia de los datos personales en la base de datos allí.<br/>
           <br/>
           De esta manera damos respuesta a su consulta dentro de los términos del artículo 15 de la Ley 1581 de 2012.<br/>
           Cabe mencionar que, la Compañía podrá garantizar la revocatoria de sus datos pasadas las 24 horas siguientes<br/>

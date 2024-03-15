@@ -15,6 +15,7 @@ const TextoAct = (props) => {
       .catch((err) => {
         console.error("Error al copiar texto: ", err);
       });
+      alert('Copiado con exito')
   };
 
   return (
