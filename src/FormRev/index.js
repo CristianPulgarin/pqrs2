@@ -68,6 +68,7 @@ const mesTexto = meses[month]
          <input className="btn" type="submit" value="Confirmar" />
          </div>
       </form>
+      
       <TextRev mes={mesTexto} day={day} year={year} caso={caso} fecha={fecha} 
       nombre={nombre}  marca={marca}/>
     </>

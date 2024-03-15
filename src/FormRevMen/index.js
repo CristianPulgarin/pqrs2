@@ -4,7 +4,7 @@ import { TextRevMen } from "./TextRevMen";
 
 const FormRevMen = (props) => {
 
-    const dat = new Date()
+const dat = new Date()
 const day = dat.getDate();
 const year = dat.getFullYear()
 const month = dat.getUTCMonth()
@@ -70,6 +70,8 @@ const mesTexto = meses[month]
       </form>
       <TextRevMen mes={mesTexto} day={day} year={year} caso={caso} fecha={fecha} 
       nombre={nombre}  marca={marca}/>
+{/*     
+    <Ensay day={day} mes={mesTexto} nombre={nombre} /> */}
     </>
   );
 };

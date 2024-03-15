@@ -7,7 +7,7 @@ import {FormAct} from '../FormAct'
 import React from 'react';
 import { FormRev } from '../FormRev';
 import { FormRevMen } from '../FormRevMen';
-import { Ensay } from '../Ensay';
+
 function App() {
 
 
@@ -17,7 +17,6 @@ function App() {
   
 {/* <InicioSesion/> */}
         <Cont/>
-        <Ensay/>
         <Routes>
         
           
