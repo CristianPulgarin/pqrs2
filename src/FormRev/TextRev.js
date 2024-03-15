@@ -1,24 +1,36 @@
-import React from "react";
+import React,{useRef} from "react";
 import './TextRev.css'
 
 const TextRev = (props) => {
-  
+  const textRef = useRef(null);
+
+  const handleCopy = () => {
+    const textToCopy = textRef.current.innerText;
+    navigator.clipboard.writeText(textToCopy)
+      .then(() => {
+        console.log("Texto copiado al portapapeles");
+      })
+      .catch((err) => {
+        console.error("Error al copiar texto: ", err);
+      });
+  };
+
   return (
     <>
     
     <div className="conteRM" >
-   <p className="textRM" > 
-   Medellín, {props.day} de {props.mes} de {props.year}<br/>
-   <br/>
-          Señor(a) {props.nombre}<br/>
+   <p className="textRM" ref={textRef}> 
+   Medellín, {props.day} de {props.mes} de {props.year}
+   <br/><br/>
+          Señor(a) {props.nombre}
           <br/>
-          Titular de los datos<br/>
+          Titular de los datos
           <br/>
           Referencia: Radicado {props.caso}<br/>
           Respuesta: Revocatoria de la autorización para tratamiento de datos<br/>
           <br/>
           Cordial saludo,
-          <br/><br/>
+          <br/>
           Conforme el reclamo efectuado por usted el pasado ,<br/>
           y encontrándonos dentro del término estipulado en la Ley 1581 de 2012 para la atención<br/>
           de reclamos, nos permitimos otorgarle una respuesta de la siguiente manera:<br/>
@@ -39,8 +51,9 @@ const TextRev = (props) => {
           <br/>
           Oficial de Cumplimiento de Datos Personales
 </p>
-      
+<button className="btncopy" onClick={handleCopy}>Copiar texto</button>
       </div>
+      
     
     </>
   );
