@@ -1,4 +1,4 @@
-.conteRM{
+.conteRepDe{
     background-color: white;
     width: 64.5%;
     margin-left: 20%;
@@ -10,7 +10,7 @@
     -moz-osx-font-smoothing: grayscale;
 }
 
-.textRM{
+.textRepDe{
     
     text-align: justify;
     font-size: 18px;
@@ -19,7 +19,7 @@
    
 }
 
-.btncopyRM{
+.btncopyRepDe{
     font-size: 30px;
     margin-left: 40%;
     border: black solid 1px;
@@ -27,7 +27,7 @@
     border-radius: 10px;
 }
 
-.btncopyRM:hover{
+.btncopyRepDe:hover{
     background-color: black;
     color: white;
 }

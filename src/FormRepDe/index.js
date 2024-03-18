@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-//import './FormRev.css'
+import './FormRepDe.css'
 import { TextRepDe } from "./TextRepDe";
 
 const FormRepDe = (props) => {
@@ -31,7 +31,7 @@ const mesTexto = meses[month]
     
   return (
     <>
-      <form onSubmit={manejarSubmit} className="formularioRevM">
+      <form onSubmit={manejarSubmit} className="formularioRepDe">
         <div className="tit">Casos repetidos mismo cliente para desuscripción</div>
         <div className="cont1">
 
