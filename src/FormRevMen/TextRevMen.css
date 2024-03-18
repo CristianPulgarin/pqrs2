@@ -11,6 +11,7 @@
 }
 
 .textRM{
+    
     text-align: justify;
     font-size: 18px;
     padding: 20px;
@@ -29,4 +30,10 @@
 .btncopyRM:hover{
     background-color: black;
     color: white;
+}
+
+
+.estado{
+    color: rgb(87, 255, 87);
+    text-shadow: 1px 1px 5px black;
 }

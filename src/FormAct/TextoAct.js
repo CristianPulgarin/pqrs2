@@ -21,6 +21,9 @@ const TextoAct = (props) => {
   return (
     <>
     <div className="conteA" >
+    <center>
+      <h1 className="estado">Funcional</h1>
+      </center>
    <p className="textA" ref={textRef}> 
    Medellín, {props.day} de {props.mes} de {props.year} <br/>
    <br/>

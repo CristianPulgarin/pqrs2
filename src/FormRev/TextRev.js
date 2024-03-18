@@ -21,6 +21,9 @@ const TextRev = (props) => {
     <>
     
     <div className="conteR" >
+      <center>
+      <h1 className="estado">Funcional</h1>
+      </center>
    <p className="textR" ref={textRef}> 
    Medellín, {props.day} de {props.mes} de {props.year}<br/>
    <br/>

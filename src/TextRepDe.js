@@ -1,7 +1,7 @@
 import React, { useRef } from "react";
-import "./TextRevMen.css";
+//import "./TextRevMen.css";
 
-const TextRevMen = (props) => {
+const TextRepDe = (props) => {
   const textRef = useRef(null);
 
   const handleCopy = () => {
@@ -65,4 +65,4 @@ const TextRevMen = (props) => {
   );
 };
 
-export { TextRevMen };
+export { TextRepDe };

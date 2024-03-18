@@ -1,8 +1,8 @@
 import React, { useState } from "react";
-import './FormRev.css'
-import { TextRevMen } from "./TextRevMen";
+//import './FormRev.css'
+import { TextRepDe } from "./TextRepDe";
 
-const FormRevMen = (props) => {
+const FormRepDe = (props) => {
 
 const dat = new Date()
 const day = dat.getDate();
@@ -32,7 +32,7 @@ const mesTexto = meses[month]
   return (
     <>
       <form onSubmit={manejarSubmit} className="formularioRevM">
-        <div className="tit">Cuando alguien nos pidió revocatoria y siguen llegando mensajes</div>
+        <div className="tit">Casos repetidos mismo cliente para desuscripción</div>
         <div className="cont1">
 
       <label className="txtinput">Caso</label>
@@ -84,7 +84,7 @@ const mesTexto = meses[month]
          </div>
       </form>
       
-      <TextRevMen mes={mesTexto} day={day} year={year} caso={caso} fecha={fecha}
+      <TextRepDe mes={mesTexto} day={day} year={year} caso={caso} fecha={fecha}
       fechapro={fechapro}  casopasado={casopasado}
       nombre={nombre}  marca={marca}/>
 
@@ -92,4 +92,4 @@ const mesTexto = meses[month]
   );
 };
 
-export { FormRevMen };
+export {FormRepDe}

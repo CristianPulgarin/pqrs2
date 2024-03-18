@@ -13,8 +13,8 @@ const Cont = () => {
         <NavLink to="/RevMen" className="caja">
           <div className="texto">Revocatoria y mensajes</div>
         </NavLink>
-        <NavLink to="/" className="caja">
-          <div className="texto"></div>
+        <NavLink to="/RepDe" className="caja">
+          <div className="texto">Repetidos desuscripción</div>
         </NavLink>
       </div>
 

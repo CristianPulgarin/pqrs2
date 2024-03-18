@@ -7,6 +7,7 @@ import {FormAct} from '../FormAct'
 import React from 'react';
 import { FormRev } from '../FormRev';
 import { FormRevMen } from '../FormRevMen';
+import { FormRepDe } from '../FormRepDe';
 
 function App() {
 
@@ -23,6 +24,7 @@ function App() {
           
           <Route path="/Revocatoria" element={<FormRev/> } />
           <Route path="/RevMen" element={<FormRevMen/> } />
+          <Route path="/RepDe" element={<FormRepDe/> } />
           <Route path="/Actualizar" element={<FormAct/> } />
           
         </Routes>  
