@@ -35,15 +35,17 @@ Referencia: Radicado {props.caso}<br/>
 Respuesta: Actualización de uno o varios de sus datos personales
 <br/><br/>
 Cordial saludo, <br/><br/>
-Conforme el reclamo efectuado por usted el pasado {props.fecha}, y encontrándonos dentro del término estipulado <br/>
-en la Ley 1581 de 2012 para la atención de reclamos, nos permitimos otorgarle una respuesta de la siguiente manera:<br/>
+Conforme el reclamo efectuado por usted el pasado {props.fecha}, <br/>
+y encontrándonos dentro del término estipulado en la Ley 1581 de 2012 para <br/>
+la atención de reclamos, nos permitimos otorgarle una respuesta de la siguiente manera:<br/>
 <br/>
 
-A partir de la fecha, la Compañía actualizará sus datos personales, quedando la siguiente
-información en nuestra base de datos:<br/><br/>
+A partir de la fecha, la Compañía actualizará sus datos personales, quedando <br/>
+la siguiente información en nuestra base de datos:<br/><br/>
 Nombre completo: {props.nombre}<br/>
 Cédula: {props.cedula} <br/>
 Fecha de nacimiento: {props.nacimiento}<br/>
+Genero: {props.genero}<br/>
 Dirección: {props.direccion}<br/>
 Numero teléfono celular: {props.celular}<br/>
 Correo electrónico: {props.correo}<br/>

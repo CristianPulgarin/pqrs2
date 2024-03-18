@@ -21,6 +21,7 @@ const mesTexto = meses[month]
     const [cedula,setCedula]= useState('')
     const [nacimiento,setNacimiento] = useState('')
     const [direccion,setDireccion] = useState ('')
+    const [genero,setGenero] = useState('')
     const [celular,setCelular] = useState('')
     const [correo,setCorreo] = useState('')
     const [marca,setMarca] = useState('')
@@ -75,6 +76,11 @@ const mesTexto = meses[month]
         value={direccion}
         onChange={(e)=>setDireccion(e.target.value)}
         />
+        <label className="txtinput">Genero</label>
+        <input className="inp"
+        value={genero}
+        onChange={(e)=>setGenero(e.target.value)}
+        />
         </div>
         <div className="cont1">
         <label className="txtinput">Celular</label>
@@ -101,7 +107,7 @@ const mesTexto = meses[month]
          
       </form>
       <TextoAct mes={mesTexto} day={day} year={year} caso={caso} fecha={fecha} nombre={nombre} cedula={cedula} 
-      nacimiento={nacimiento} direccion={direccion}
+      nacimiento={nacimiento} direccion={direccion} genero={genero}
       celular={celular} correo={correo} marca={marca}/>
     </>
   );
