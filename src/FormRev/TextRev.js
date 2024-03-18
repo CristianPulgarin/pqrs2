@@ -41,14 +41,17 @@ const TextRev = (props) => {
           de reclamos, nos permitimos otorgarle una respuesta de la siguiente manera:<br/>
           <br/>
           De acuerdo con la solicitud de revocar la autorización para que la Compañía trate los<br/>
-          datos personales de {props.nombre}, nos permitimos comunicar que, en cumplimiento de nuestros deberes <br/>
-          como Responsables del Tratamiento de los datos personales, y el compromiso adquirido<br/>
-           al momento de obtener la autorización, la Compañía se abstendrá de continuar ejecutando<br/>
-           las finalidades para las cuales había capturado los datos personales, salvo en aquellos casos<br/>
-           en que exista un deber legal o contractual que requieran la permanencia de los datos personales en la base de datos allí.<br/>
+          datos personales de {props.nombre}, nos permitimos comunicar que,<br/>
+          en cumplimiento de nuestros deberes como Responsables del Tratamiento de los<br/> 
+          datos personales, y el compromiso adquirido al momento de obtener la autorización,<br/>
+          la Compañía se abstendrá de continuar ejecutando las finalidades para las cuales había <br/>
+          capturado los datos personales, salvo en aquellos casos en que exista un deber legal o<br/> 
+          contractual que requieran la permanencia de los datos personales en la base de datos allí.<br/>
           <br/>
-          De esta manera damos respuesta a su consulta dentro de los términos del artículo 15 de la Ley 1581 de 2012.<br/>
-          Cabe mencionar que, la Compañía podrá garantizar la revocatoria de sus datos pasadas las 24 horas siguientes<br/>
+          De esta manera damos respuesta a su consulta dentro de los términos del artículo 15 <br/>
+          de la Ley 1581 de 2012.<br/><br/>
+          Cabe mencionar que, la Compañía podrá garantizar la revocatoria de sus datos pasadas<br/>
+          las 24 horas siguientes
           a partir del momento que reciba esta comunicación.<br/>
           <br/>
           Cordialmente,<br/>
