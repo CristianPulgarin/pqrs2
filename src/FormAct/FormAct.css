@@ -1,34 +1,43 @@
 .formulario{
     background-color: white;
-    width: 64.5%;
-    height: 500px;
+    width: 65%;
+    height: 600px;
     margin-left: 20%;
     border-radius: 10px;
     margin-top: 40px;
  }
 
 
- .tit{
+ .titA{
     text-align: center;
-    font-size: 40px;
+    font-size: 50px;
     font-weight: bold;
+    
  }
 
-.cont1{
-    margin-top: 20px;
+.cont1A{
+    
     display: flex;
-    margin-left: 30px;
-}
-.txtinput{
-    margin-top: 30px;
-    font-size: 15px;
-    font-weight: bold;
+    flex-wrap: nowrap;
+    justify-content: center;
 }
 
-.inp{
-    margin-top: 60px;
-    margin: 23px;
-    width: 260px;
+.cont2A{
+    
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+.txtinputA{
+    font-size: 18px;
+    font-weight: bold;
+    
+}
+
+.inpA{
+    
+    margin: 20px;
+    width: 300px;
     height: 25px;
     box-shadow: black 2px 2px 4px;
     
@@ -47,3 +56,39 @@
     border-radius: 10px;
 }
 
+
+
+
+@media (max-width: 1442px) {
+    .inpA{
+    
+        margin: 20px;
+        width: 230px;
+        height: 25px;
+        box-shadow: black 2px 2px 4px;
+        
+    }
+  }
+
+
+  @media (max-width: 1246px) {
+    .formulario{
+        width: 70%;
+        margin-left: 17%;
+    }
+    .titA{
+        font-size: 40px;
+    }
+    .inpA{
+    
+        margin: 20px;
+        width: 230px;
+        height: 25px;
+        box-shadow: black 2px 2px 4px;
+        
+    }
+
+    .cont1A{
+        margin-left: 10px;
+    }
+  }
