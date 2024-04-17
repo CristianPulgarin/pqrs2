@@ -92,3 +92,17 @@
         margin-left: 10px;
     }
   }
+
+  @media (max-width: 930px) {
+    .titA{
+        font-size: 30px;
+
+    }
+
+    .cont1A{
+        margin-top: 10px;
+    }
+
+    
+  }
+

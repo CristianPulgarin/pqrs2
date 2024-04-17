@@ -56,7 +56,7 @@ const mesTexto = meses[month]
         
         </div>
         <div className="cont1A">
-        <label className="txtinputA">Nombre completo
+        <label className="txtinputA">Nombre
         <input className="inpA"
         value={nombre}
         onChange={(e)=>setNombre(e.target.value)}
@@ -70,10 +70,11 @@ const mesTexto = meses[month]
         
         </div>
         <div className="cont1A">
-        <label className="txtinputA">Fecha nacimiento
+        
+        <label className="txtinputA">Celular
         <input className="inpA"
-        value={nacimiento}
-        onChange={(e)=>setNacimiento(e.target.value)}
+        value={celular}
+        onChange={(e)=>setCelular(e.target.value)}
         /></label>
         
         <label className="txtinputA">Dirección
@@ -84,11 +85,12 @@ const mesTexto = meses[month]
         
         </div>
         <div className="cont1A">
-        <label className="txtinputA">Celular
+        <label className="txtinputA">Fecha nacimiento
         <input className="inpA"
-        value={celular}
-        onChange={(e)=>setCelular(e.target.value)}
+        value={nacimiento}
+        onChange={(e)=>setNacimiento(e.target.value)}
         /></label>
+        
         
         <label className="txtinputA">Correo
         <input className="inpA"
