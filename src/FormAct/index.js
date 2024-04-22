@@ -31,6 +31,18 @@ const mesTexto = meses[month]
       
       alert('Campos completados, puedes copiar');
     };
+
+    const eliminarDatos = ()=>{
+      setCaso("");
+      setFecha("");
+      setNombre("");
+      setCedula("");
+      setNacimiento("");
+      setDireccion("");
+      setCelular("");
+      setCorreo("");
+      setMarca("");
+    }
     
   return (
     <>
@@ -108,7 +120,7 @@ const mesTexto = meses[month]
         
       <br/><br/>
          <div className="contbtn">
-         <input className="btn" type="submit" value="Confirmar" />
+         <input className="btn" type="button" onClick={eliminarDatos} value="Borrar" />
          </div>
          
       </form>
