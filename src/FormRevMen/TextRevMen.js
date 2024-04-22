@@ -53,12 +53,15 @@ const TextRevMen = (props) => {
           <br/>
           Oficial de Cumplimiento de Datos Personales.
         </p>
+        
         <div className="contbtnRM">
         <button className="btncopyRM" onClick={handleCopy}>
           Copiar texto
         </button>
         </div>
       </div>
+
+      
 
       <br />
     </>

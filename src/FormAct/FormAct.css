@@ -1,11 +1,13 @@
-.formulario{
+.formularioA{
     background-color: white;
-    width: 65%;
+    width: 70%;
     height: 600px;
-    margin-left: 20%;
+    margin: 0 auto;
     border-radius: 10px;
     margin-top: 40px;
  }
+
+ 
 
 
  .titA{
@@ -69,10 +71,7 @@
 
 
   @media (max-width: 1246px) {
-    .formulario{
-        width: 70%;
-        margin-left: 17%;
-    }
+    
     .titA{
         font-size: 40px;
     }
@@ -119,7 +118,7 @@
     .inpA{
         width: 50%;
         height: 30px;
-        margin-left: 40%;
+        
         margin-top: -5%;
         display: block;
         box-shadow: black 2px 2px 4px;

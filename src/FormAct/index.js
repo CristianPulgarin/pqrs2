@@ -46,7 +46,7 @@ const mesTexto = meses[month]
     
   return (
     <>
-      <form onSubmit={manejarSubmit} className="formulario">
+      <form onSubmit={manejarSubmit} className="formularioA">
       <div className="titA">Actualización de datos personales</div>
       <div className="cont1A">
 
