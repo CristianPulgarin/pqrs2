@@ -8,7 +8,7 @@ import React from 'react';
 import { FormRev } from '../FormRev';
 import { FormRevMen } from '../FormRevMen';
 import { FormRepDe } from '../FormRepDe';
-
+// import {InicioSesion} from '../InicioSesion'
 function App() {
 
 
@@ -16,7 +16,7 @@ function App() {
   return (
     <>
   
-{/* <InicioSesion/> */}
+{/* <InicioSesion/>  */}
         <Cont/>
         <Routes>
         

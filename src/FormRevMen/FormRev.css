@@ -1,48 +1,199 @@
 .formularioRevM{
     background-color: white;
     width: 64.5%;
-    height: 450px;
+    height: 470px;
     margin-left: 20%;
     border-radius: 10px;
     margin-top: 40px;
  }
 
 
- .tit{
+ .titRM{
     text-align: center;
     font-size: 40px;
     font-weight: bold;
  }
 
-.cont1{
-    margin-top: 20px;
-    display: flex;
-    margin-left: 30px;
+.contRM{
+    margin-left: 8%;
+    margin-top: 5px;
 }
-.txtinput{
-    margin-top: 30px;
-    font-size: 15px;
+.txtinputRM{
+    font-size: 26px;
     font-weight: bold;
+    width: 40px;
 }
 
-.inp{
-    margin-top: 60px;
-    margin: 23px;
-    width: 260px;
-    height: 25px;
+.inpRM{
+    width: 60%;
+    height: 30px;
+    margin-left: 30%;
+    margin-top: -2.8%;
+    display: block;
     box-shadow: black 2px 2px 4px;
     
 }
 
-.contbtn{
+.contbtnRM{
     justify-content: center;
     display: flex;
 }
 
-.btn{
+.btnRM{
     font-weight: bold;
     font-size: 30px;
     background-color: black;
     color: white;
     border-radius: 10px;
 }
+
+
+
+
+@media (max-width: 1350px) {
+
+    .formularioRevM{
+        height: 430px;
+    }
+    .titRM{
+        font-size: 30px;
+    }
+
+    .txtinputRM{
+        margin-top: 50px;
+        font-size: 25px;
+    }
+    .inpRM{
+        width: 50%;
+        height: 30px;
+        margin-left: 40%;
+        margin-top: -3.5%;
+        display: block;
+        box-shadow: black 2px 2px 4px;
+        
+    }
+
+}
+
+
+
+@media (max-width: 1020px) {
+
+    .formularioRevM{
+        height: 400px;
+    }
+    .titRM{
+        font-size: 23px;
+    }
+
+    .contRM{
+        margin-top: 25px;
+    }
+
+    .txtinputRM{
+        
+        font-size: 22px;
+    }
+    .inpRM{
+        width: 50%;
+        height: 30px;
+        margin-left: 40%;
+        margin-top: -4.5%;
+        display: block;
+        box-shadow: black 2px 2px 4px;
+        
+    }
+
+}
+
+
+
+@media (max-width: 900px) {
+    .formularioRevM{
+        height: 430px;
+    }
+    .titRM{
+        font-size: 20px;
+    }
+
+    .contRM{
+        margin-top: 30px;
+    }
+
+    .txtinputRM{
+        
+        font-size: 18px;
+    }
+    .inpRM{
+        width: 50%;
+        height: 30px;
+        margin-left: 40%;
+        margin-top: -3%;
+        display: block;
+        box-shadow: black 2px 2px 4px;
+        
+    }
+
+}
+
+@media (max-width: 688px) {
+
+    .formularioRevM{
+    height: 380px;
+    }
+
+    .titRM{
+        font-size: 17px;
+    }
+
+    .contRM{
+        margin-top: 30px;
+    }
+
+    .txtinputRM{
+        
+        font-size: 17px;
+    }
+    .inpRM{
+        width: 40%;
+        height: 20px;
+        margin-left: 50%;
+        margin-top: -4%;
+        display: block;
+        box-shadow: black 2px 2px 4px;
+        
+    }
+
+}
+
+
+@media (max-width: 580px) {
+
+    .formularioRevM{
+    height: 360px;
+    }
+
+    .titRM{
+        font-size: 13px;
+    }
+
+    .contRM{
+        margin-top: 30px;
+    }
+
+    .txtinputRM{
+        
+        font-size: 15px;
+    }
+    .inpRM{
+        width: 30%;
+        height: 20px;
+        margin-left: 55%;
+        margin-top: -5%;
+        display: block;
+        box-shadow: black 2px 2px 4px;
+        
+    }
+
+}
+

@@ -20,9 +20,7 @@ const TextRevMen = (props) => {
   return (
     <>
       <div className="conteRM">
-        <center>
-          <h1 className="estado">Funcional</h1>
-        </center>
+        
         <p className="textRM" ref={textRef}>
           Medellín, {props.day} de {props.mes} de {props.year}
           <br />
@@ -37,16 +35,16 @@ const TextRevMen = (props) => {
           <br/><br/>
           Cordial saludo,<br/><br/>
 
-          Conforme el reclamo efectuado por usted el pasado {props.fecha}, y encontrándonos<br/>
-          dentro del término estipulado en la Ley 1581 de 2012 para la atención de reclamos,<br/>
+          Conforme el reclamo efectuado por usted el pasado {props.fecha}, y encontrándonos
+          dentro del término estipulado en la Ley 1581 de 2012 para la atención de reclamos,
           nos permitimos otorgarle una respuesta de la siguiente manera: <br/><br/>
 
-          Queremos informarle que el requerimiento de Revocatoria de datos personales se procesó<br/>
-          correctamente el día {props.fechapro} del presente año. La respuesta oficial fue enviada por medio<br/>
-          del requerimiento {props.casopasado}. Si usted después de la fecha de la revocatoria<br/>
+          Queremos informarle que el requerimiento de Revocatoria de datos personales se procesó
+          correctamente el día {props.fechapro} del presente año. La respuesta oficial fue enviada por medio
+          del requerimiento {props.casopasado}. Si usted después de la fecha de la revocatoria
           siguió recibiendo algún tipo de comunicación de la marca informarnos por favor.<br/><br/>
           
-          De esta manera damos respuesta a su consulta dentro de los términos del artículo<br/>
+          De esta manera damos respuesta a su consulta dentro de los términos del artículo
           15 de la Ley 1581 de 2012. <br/><br/>
           
           Cordialmente,
@@ -55,9 +53,11 @@ const TextRevMen = (props) => {
           <br/>
           Oficial de Cumplimiento de Datos Personales.
         </p>
+        <div className="contbtnRM">
         <button className="btncopyRM" onClick={handleCopy}>
           Copiar texto
         </button>
+        </div>
       </div>
 
       <br />

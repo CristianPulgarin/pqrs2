@@ -1,5 +1,10 @@
+
+
 body {
-  background-color: rgb(234, 234, 234);
+  background-image: url("./img/fondo.jpg");
+  background-repeat: no-repeat;
+  background-size: cover; /* Ajustar el tamaño de la imagen para cubrir el área del contenedor */
+  background-position: center;
   margin: 0;
   padding: 0;
 

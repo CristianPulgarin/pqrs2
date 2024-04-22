@@ -1,10 +1,11 @@
 
 .titulopqr{
+    color: white;
     margin-top: 20px;
     font-size: 50px;
     text-align: center;
     font-weight: bold;
-    text-shadow: black 2px 2px 4px;
+    text-shadow: rgb(185, 185, 185) 2px 2px 4px;
 }
 
 .cont{
