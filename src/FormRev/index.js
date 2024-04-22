@@ -27,46 +27,59 @@ const mesTexto = meses[month]
         alert('Campos completados, puedes copiar');
       };
 
+    const eliminarDatos = () => {
+      setCaso(""); // Restablecer el valor del campo "Numero Caso"
+      setFecha(""); // Restablecer el valor del campo "Fecha solicitud"
+      setNombre(""); // Restablecer el valor del campo "Nombre usuario"
+      setMarca(""); // Restablecer el valor del campo "Nombre Marca"
+  };
     
   return (
     <>
-      <form onSubmit={manejarSubmit} className="formularioRev">
-        <div className="tit">Revocatoria de la tirilla para tratamientos de datos</div>
-        <div className="cont1">
 
-      <label className="txtinput">Caso</label>
-        <input className="inp"
+
+
+
+      <form onSubmit={manejarSubmit} className="formularioRev">
+        <div className="titR">Revocatoria de la tirilla para<br/> tratamientos de datos</div>
+      <div className="cont1R">
+      <label className="txtinputR">Numero Caso</label>
+        <input className="inpR"
         required
         value={caso}
         onChange={(e)=>setCaso(e.target.value)}
         />
-      <label className="txtinput">Fecha solicitud</label>
-        <input className="inp"
+        <br/>
+      <label className="txtinputR">Fecha solicitud</label>
+        <input className="inpR"
         required
         value={fecha}
         onChange={(e)=>setFecha(e.target.value)}
         />
-        </div>
-        <div className="cont1">
-        <label className="txtinput">Nombre completo</label>
-        <input className="inp"
+      <br/>
+        
+        <label className="txtinputR">Nombre usuario</label>
+        <input className="inpR"
         required
         value={nombre}
         onChange={(e)=>setNombre(e.target.value)}
         />
-        <label className="txtinput">Marca</label>
-        <input className="inp"
+        <br/>
+        <label className="txtinputR">Nombre Marca</label>
+        <input className="inpR"
         required
         value={marca}
         onChange={(e)=>setMarca(e.target.value)}
         />
-        </div>
+      <br/>
+      </div>
         
-        
-        
+      <br/>
                 <div className="contbtn">
-         <input className="btn" type="submit" value="Confirmar" />
+                <button className="btn" type="button" onClick={eliminarDatos}>Borrar</button>
+                
          </div>
+         <br/>
       </form>
       
       <TextRev mes={mesTexto} day={day} year={year} caso={caso} fecha={fecha} 

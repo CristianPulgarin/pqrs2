@@ -53,11 +53,12 @@ Cordialmente,
 <br/>
 Oficial de Cumplimiento de Datos Personales
 </p>
+<div className="contbtnA">
 <button className="btncopyA" onClick={handleCopy}>Copiar texto</button>
+
+</div>
       </div>
-      
-    <br/>
-   
+      <br/><br/>
     </>
   );
 };

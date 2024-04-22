@@ -16,29 +16,24 @@
  }
 
 .cont1A{
+    margin-left: 8%;
+    margin-top: 30px;
     
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: center;
 }
 
-.cont2A{
-    
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: center;
-}
 .txtinputA{
-    font-size: 18px;
+    font-size: 26px;
     font-weight: bold;
+    width: 40px;
     
 }
 
 .inpA{
-    
-    margin: 20px;
-    width: 300px;
-    height: 25px;
+    width: 60%;
+    height: 30px;
+    margin-left: 30%;
+    margin-top: -3%;
+    display: block;
     box-shadow: black 2px 2px 4px;
     
 }
@@ -62,9 +57,11 @@
 @media (max-width: 1442px) {
     .inpA{
     
-        margin: 20px;
-        width: 230px;
-        height: 25px;
+        width: 60%;
+        height: 30px;
+        margin-left: 30%;
+        margin-top: -3%;
+        display: block;
         box-shadow: black 2px 2px 4px;
         
     }
@@ -79,18 +76,21 @@
     .titA{
         font-size: 40px;
     }
+
+    .txtinputA{
+        font-size: 22px;
+    }
     .inpA{
     
-        margin: 20px;
-        width: 230px;
-        height: 25px;
-        box-shadow: black 2px 2px 4px;
+    width: 60%;
+    height: 30px;
+    margin-left: 30%;
+    margin-top: -3%;
+    display: block;
+    box-shadow: black 2px 2px 4px;
         
     }
 
-    .cont1A{
-        margin-left: 10px;
-    }
   }
 
   @media (max-width: 930px) {
@@ -99,10 +99,29 @@
 
     }
 
-    .cont1A{
-        margin-top: 10px;
+    .txtinputA{
+        font-size: 20px;
+    }
+    .inpA{
+        width: 50%;
+        height: 30px;
+        margin-left: 40%;
+        margin-top: -3.8%;
+        display: block;
+        box-shadow: black 2px 2px 4px;
     }
 
     
   }
 
+
+  @media (max-width: 640px) {
+    .inpA{
+        width: 50%;
+        height: 30px;
+        margin-left: 40%;
+        margin-top: -5%;
+        display: block;
+        box-shadow: black 2px 2px 4px;
+    }
+  }

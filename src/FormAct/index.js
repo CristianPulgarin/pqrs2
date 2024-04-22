@@ -36,77 +36,77 @@ const mesTexto = meses[month]
     <>
       <form onSubmit={manejarSubmit} className="formulario">
       <div className="titA">Actualización de datos personales</div>
-        <div className="cont1A">
-      
+      <div className="cont1A">
 
-      <label className="txtinputA">Caso
+      <label className="txtinputA">Numero Caso</label>
       <input className="inpA"
         required
         value={caso}
         onChange={(e)=>setCaso(e.target.value)}
         />
-      </label>
+
       
-      <label className="txtinputA">Fecha solicitud
+
+
+      <label className="txtinputA">Fecha solicitud</label>
       <input className="inpA"
         //type="date"
         value={fecha}
         onChange={(e)=>setFecha(e.target.value)}
-        /></label>
+        />
         
-        </div>
-        <div className="cont1A">
-        <label className="txtinputA">Nombre
+        
+        
+        <label className="txtinputA">Nombre</label>
         <input className="inpA"
         value={nombre}
         onChange={(e)=>setNombre(e.target.value)}
-        /></label>
+        />
         
-        <label className="txtinputA">Cedula
+        <label className="txtinputA">Cedula</label>
         <input className="inpA"
         value={cedula}
         onChange={(e)=>setCedula(e.target.value)}
-        /></label>
+        />
         
-        </div>
-        <div className="cont1A">
         
-        <label className="txtinputA">Celular
+        
+        <label className="txtinputA">Celular</label>
         <input className="inpA"
         value={celular}
         onChange={(e)=>setCelular(e.target.value)}
-        /></label>
+        />
         
-        <label className="txtinputA">Dirección
+        <label className="txtinputA">Dirección</label>
         <input className="inpA"
         value={direccion}
         onChange={(e)=>setDireccion(e.target.value)}
-        /></label>
+        />
         
-        </div>
-        <div className="cont1A">
-        <label className="txtinputA">Fecha nacimiento
+        
+        
+        <label className="txtinputA">Fecha nacimiento</label>
         <input className="inpA"
         value={nacimiento}
         onChange={(e)=>setNacimiento(e.target.value)}
-        /></label>
+        />
         
         
-        <label className="txtinputA">Correo
+        <label className="txtinputA">Correo</label>
         <input className="inpA"
         value={correo}
         onChange={(e)=>setCorreo(e.target.value)}
-        /></label>
-        </div>
-        <div className="cont2A">
-        <label className="txtinputA">Marca
+        />
+        
+       
+        <label className="txtinputA">Marca</label>
         <input className="inpA"
         value={marca}
         onChange={(e)=>setMarca(e.target.value)}
-        /></label>
-        
-        
+        />
         </div>
+        
+      <br/><br/>
          <div className="contbtn">
          <input className="btn" type="submit" value="Confirmar" />
          </div>

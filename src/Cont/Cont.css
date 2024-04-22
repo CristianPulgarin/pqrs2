@@ -9,15 +9,16 @@
 
 .cont{
     display: flex;
-    justify-content: space-evenly;
-    margin-top: 50px;
+    flex-wrap: wrap;
+    margin: 30px;
+    justify-content: space-around;
 }
 
 
 .caja{
     background-color: white;
-    width: 25%;
-    height: 150px;
+    width: 400px;
+    margin: 10px;
     border-radius: 10px;
     box-shadow: black 5px 5px 20px 5px;
 }
@@ -30,11 +31,12 @@
 }
 
 .texto{
-    margin-top: 5px;
+    display: flex;
+    justify-content: center;
     text-align: center;
     font-size: 40px;
     font-weight: bold;
-    padding: 28px;
+    
 }
 
 a{

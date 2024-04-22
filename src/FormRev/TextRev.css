@@ -1,8 +1,8 @@
 .conteR{
     background-color: rgb(255, 255, 255);
     width: 64.5%;
+    height: 950px;
     margin-left: 20%;
-    height: 770px;
     margin-top: 10px;
     border-radius: 10px;
     
@@ -11,15 +11,21 @@
 
 .textR{
     text-align: justify;
-    font-size: 18px;
+    font-size: 22px;
     padding: 20px;
     font-family: 'Times New Roman', Times, serif;
    
 }
 
+.contbtn{
+    display: flex;
+    justify-content: center;
+    margin-top: -20px;
+}
+
 .btncopyR{
     font-size: 30px;
-    margin-left: 40%;
+    
     border: black solid 1px;
     box-shadow: black 5px 5px 10px;
     border-radius: 10px;
@@ -33,3 +39,18 @@
 
 
 
+@media (max-width: 1208px) {
+
+.conteR{
+    height: 1100px;
+}
+
+}
+
+@media (max-width: 876px) {
+
+    .conteR{
+        height: 1300px;
+    }
+    
+    }

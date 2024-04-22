@@ -1,8 +1,8 @@
 .conteA{
     background-color: white;
-    width: 64.5%;
-    margin-left: 20%;
-    height: 760px;
+    width: 70%;
+    margin-left: 17.5%;
+    height: 870px;
     margin-top: 10px;
     border-radius: 10px;
     font-family: 'Times New Roman', Times, serif;
@@ -12,14 +12,18 @@
 
 
 .textA{
-    font-size: 20px;
+    font-size: 22px;
     text-align: justify;
     padding: 18px;
 }
 
+.contbtnA{
+    display: flex;
+    justify-content: center;
+}
+
 .btncopyA{
     font-size: 30px;
-    margin-left: 40%;
     border: black solid 1px;
     box-shadow: black 5px 5px 10px;
     border-radius: 10px;
@@ -30,3 +34,17 @@
     color: white;
 }
 
+
+@media (max-width: 958px) {
+.conteA{
+    height: 950px;
+}
+
+}
+
+
+@media (max-width: 640px) {
+    .conteA{
+        height: 1200px;
+    }
+    }

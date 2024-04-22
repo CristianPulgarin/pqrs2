@@ -8,13 +8,13 @@ const Cont = () => {
       <div className="titulopqr">FORMATOS PQR </div>
       <div className="cont">
         <NavLink to="/Revocatoria" className="caja">
-          <div className="texto">Revocatoria</div>
+          <div className="texto">REVOCATORIA</div>
         </NavLink>
         <NavLink to="/RevMen" className="caja">
-          <div className="texto">Revocatoria y mensajes</div>
+          <div className="texto">REVOCATORIA Y MENSAJES</div>
         </NavLink>
         <NavLink to="/RepDe" className="caja">
-          <div className="texto">Repetidos desuscripción</div>
+          <div className="texto">DESUSCRIPCIÓN REPETIDOS</div>
         </NavLink>
       </div>
 
@@ -36,7 +36,7 @@ const Cont = () => {
         </NavLink>
 
         <NavLink to="/Actualizar" className="caja">
-          <div className="texto">Actualizar</div>
+          <div className="texto">ACTUALIZAR</div>
         </NavLink>
 
         <NavLink to="/" className="caja">
