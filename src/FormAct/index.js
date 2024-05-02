@@ -119,14 +119,14 @@ const mesTexto = meses[month]
         </div>
         
       <br/><br/>
-         <div className="contbtn">
-         <input className="btn" type="button" onClick={eliminarDatos} value="Borrar" />
+         <div className="contbtnA">
+         <input className="btnA" type="button" onClick={eliminarDatos} value={"Borrar"} />
          </div>
          
       </form>
       <TextoAct mes={mesTexto} day={day} year={year} caso={caso} fecha={fecha} nombre={nombre} cedula={cedula} 
       nacimiento={nacimiento} direccion={direccion} 
-      celular={celular} correo={correo} marca={marca}/>
+      celular={celular} correo={correo} marca={marca} estado={props.estado} setEstado={props.setEstado}/>
     </>
   );
 };

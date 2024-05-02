@@ -3,18 +3,24 @@ import "./TextRevMen.css";
 
 const TextRevMen = (props) => {
   const textRef = useRef(null);
+  
 
   const handleCopy = () => {
     const textToCopy = textRef.current.innerText;
     navigator.clipboard
       .writeText(textToCopy)
       .then(() => {
-        console.log("Texto copiado al portapapeles");
+        props.setEstado(true)
+        
+        setTimeout(()=>{
+          props.setEstado(false)
+        },"3000")
+        
       })
       .catch((err) => {
         console.error("Error al copiar texto: ", err);
       });
-    alert("Copiado con exito");
+ 
   };
 
   return (
@@ -56,7 +62,7 @@ const TextRevMen = (props) => {
         
         <div className="contbtnRM">
         <button className="btncopyRM" onClick={handleCopy}>
-          Copiar texto
+          {props.estado ? 'Texto copiado' : 'Copiar texto'}
         </button>
         </div>
       </div>

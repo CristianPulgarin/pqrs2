@@ -83,7 +83,7 @@ const mesTexto = meses[month]
       </form>
       
       <TextRev mes={mesTexto} day={day} year={year} caso={caso} fecha={fecha} 
-      nombre={nombre}  marca={marca}/>
+      nombre={nombre}  marca={marca} estado={props.estado} setEstado={props.setEstado}/>
     </>
   );
 };

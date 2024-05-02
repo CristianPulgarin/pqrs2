@@ -32,45 +32,45 @@ const mesTexto = meses[month]
   return (
     <>
       <form onSubmit={manejarSubmit} className="formularioRepDe">
-        <div className="tit">Casos repetidos mismo cliente para desuscripción</div>
-        <div className="cont1">
+        <div className="titRD">Casos repetidos mismo cliente<br></br> para desuscripción</div>
+        <div className="cont1RD">
 
-      <label className="txtinput">Caso</label>
-        <input className="inp"
+      <label className="txtinputRD">Caso</label>
+        <input className="inpRD"
         required
         value={caso}
         onChange={(e)=>setCaso(e.target.value)}
         />
-      <label className="txtinput">Fecha solicitud</label>
-        <input className="inp"
+      <label className="txtinputRD">Fecha solicitud</label>
+        <input className="inpRD"
         required
         value={fecha}
         onChange={(e)=>setFecha(e.target.value)}
         />
-        </div>
-        <div className="cont1">
-        <label className="txtinput">Fecha proceso</label>
-        <input className="inp"
+        
+        
+        <label className="txtinputRD">Fecha proceso</label>
+        <input className="inpRD"
         required
         value={fechapro}
         onChange={(e)=>setFechaPro(e.target.value)}
         />
-        <label className="txtinput">Caso pasado</label>
-        <input className="inp"
+        <label className="txtinputRD">Caso pasado</label>
+        <input className="inpRD"
         required
         value={casopasado}
         onChange={(e)=>setCasoPasado(e.target.value)}
         />
-        </div>
-        <div className="cont1">
-        <label className="txtinput">Nombre completo</label>
-        <input className="inp"
+        
+        
+        <label className="txtinputRD">Nombre completo</label>
+        <input className="inpRD"
         required
         value={nombre}
         onChange={(e)=>setNombre(e.target.value)}
         />
-        <label className="txtinput">Marca</label>
-        <input className="inp"
+        <label className="txtinputRD">Marca</label>
+        <input className="inpRD"
         required
         value={marca}
         onChange={(e)=>setMarca(e.target.value)}
@@ -79,14 +79,14 @@ const mesTexto = meses[month]
         
         
         
-                <div className="contbtn">
-         <input className="btn" type="submit" value="Confirmar" />
+                <div className="contbtnRD">
+         <input className="btnRD" type="submit" value="Confirmar" />
          </div>
       </form>
       
       <TextRepDe mes={mesTexto} day={day} year={year} caso={caso} fecha={fecha}
       fechapro={fechapro}  casopasado={casopasado}
-      nombre={nombre}  marca={marca}/>
+      nombre={nombre}  marca={marca} estado={props.estado} setEstado={props.setEstado}/>
 
     </>
   );

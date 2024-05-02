@@ -11,10 +11,23 @@ const TextoAct = (props) => {
     navigator.clipboard.writeText(textToCopy)
       .then(() => {
         console.log("Texto copiado al portapapeles");
+        
+        props.setEstado(true)
+
+        setTimeout(() => {
+          props.setEstado(false)
+        }, "4000");
+
       })
       .catch((err) => {
         console.error("Error al copiar texto: ", err);
       });
+
+      
+      
+      
+
+      
       
   };
 
@@ -54,7 +67,7 @@ Cordialmente,
 Oficial de Cumplimiento de Datos Personales
 </p>
 <div className="contbtnA">
-<button className="btncopyA" onClick={handleCopy}>Copiar texto</button>
+<button className="btncopyA" id="btnc" onClick={handleCopy}>{props.estado ? 'Copiado con exito' : 'Copiar texto'}</button>
 
 </div>
       </div>

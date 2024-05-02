@@ -9,20 +9,21 @@ const TextRepDe = (props) => {
     navigator.clipboard
       .writeText(textToCopy)
       .then(() => {
-        console.log("Texto copiado al portapapeles");
+        props.setEstado(true)
+
+        setTimeout(()=>{
+          props.setEstado(false)
+        }, "3000")
       })
       .catch((err) => {
         console.error("Error al copiar texto: ", err);
       });
-    alert("Copiado con exito");
   };
 
   return (
     <>
       <div className="conteRepDe">
-        <center>
-          <h1 className="estadomalo">NO Funcional</h1>
-        </center>
+       
         <p className="textRepDe" ref={textRef}>
           Medellín, {props.day} de {props.mes} de {props.year} 
           
@@ -35,13 +36,13 @@ const TextRepDe = (props) => {
           Respuesta Revocatoria de la autorización para tratamiento de datos <br/><br/>
 
           Cordial saludo,<br/><br/>
-          Conforme el reclamo efectuado por usted el pasado {props.fecha}, y encontrándonos dentro<br/>
-          del término estipulado en la Ley 1581 de 2012 para la atención de reclamos, nos permitimos<br/>
+          Conforme el reclamo efectuado por usted el pasado {props.fecha}, y encontrándonos dentro
+          del término estipulado en la Ley 1581 de 2012 para la atención de reclamos, nos permitimos
            otorgarle una respuesta de la siguiente manera:<br/><br/>
 
-          Queremos informarle que el requerimiento de Revocatoria de datos personales se procesó <br/>
-          correctamente el día {props.fechapro} del presente año, la respuesta oficial fue enviada por medio<br/> 
-          de los requerimientos {props.casopasado}. Cabe mencionar que, la Compañía podrá garantizar la revocatoria <br/>
+          Queremos informarle que el requerimiento de Revocatoria de datos personales se procesó
+          correctamente el día {props.fechapro} del presente año, la respuesta oficial fue enviada por medio 
+          de los requerimientos {props.casopasado}. Cabe mencionar que, la Compañía podrá garantizar la revocatoria
           de sus datos pasadas las 24 horas siguientes a partir del momento que reciba esta comunicación.<br/><br/> 
           
           De esta manera damos respuesta a su consulta dentro de los términos del artículo 15 de la Ley 1581 de
@@ -53,7 +54,7 @@ const TextRepDe = (props) => {
           Personales.
         </p>
         <button className="btncopyRepDe" onClick={handleCopy}>
-          Copiar texto
+         {props.estado ? 'Texto copiado' : 'Copiar texto'}
         </button>
       </div>
 

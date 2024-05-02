@@ -4,17 +4,24 @@ import './TextRev.css'
 const TextRev = (props) => {
   const textRef = useRef(null);
 
+
   const handleCopy = () => {
     const textToCopy = textRef.current.innerText;
     navigator.clipboard.writeText(textToCopy)
       .then(() => {
-        console.log("Texto copiado al portapapeles");
+       
+        props.setEstado(true)
+        setTimeout(()=>{
+          props.setEstado(false)
+        },"3000")
+
+
+
       })
       .catch((err) => {
         console.error("Error al copiar texto: ", err);
       });
 
-      alert ('copiado con exito')
   };
 
   return (
@@ -58,7 +65,7 @@ const TextRev = (props) => {
           Oficial de Cumplimiento de Datos Personales
 </p>
 <div className="contbtn">
-<button className="btncopyR" onClick={handleCopy}>Copiar texto</button>
+<button className="btncopyR" onClick={handleCopy}>{props.estado ? 'Texto copiado' : 'Copiar texto'}</button>
 
 </div>
       </div>

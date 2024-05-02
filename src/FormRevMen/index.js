@@ -95,7 +95,7 @@ const mesTexto = meses[month]
       
       <TextRevMen mes={mesTexto} day={day} year={year} caso={caso} fecha={fecha}
       fechapro={fechapro}  casopasado={casopasado}
-      nombre={nombre}  marca={marca}/>
+      nombre={nombre}  marca={marca} estado={props.estado} setEstado = {props.setEstado}/>
 
     </>
   );
