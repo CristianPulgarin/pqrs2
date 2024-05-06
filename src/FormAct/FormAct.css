@@ -39,12 +39,12 @@
     
 }
 
-.contbtn{
+.contbtnA{
     justify-content: center;
     display: flex;
 }
 
-.btn{
+.btnA{
     font-weight: bold;
     font-size: 30px;
     background-color: black;
