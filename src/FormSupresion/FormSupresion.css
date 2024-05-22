@@ -1,0 +1,167 @@
+.formularioS{
+    background-color: white;
+    width: 50%;
+    margin: 0 auto;
+    border-radius: 10px;
+    margin-top: 40px;
+ }
+
+
+ .titS{
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+    
+    
+ }
+
+.cont1S{
+    margin-left: 5%;
+    margin-top: 20px;
+    
+}
+.txtinputS{
+    margin-top: 30px;
+    font-size: 30px;
+    font-weight: bold;
+    width: 40px;
+    justify-content: center;
+}
+
+.inpS{
+    width: 50%;
+    height: 25px;
+    margin-left: 40%;
+    margin-top: -4.5%;
+    display: block;
+    box-shadow: black 2px 2px 4px;
+    
+}
+
+.contbtn{
+    justify-content: center;
+    display: flex;
+    
+}
+
+.btn{
+    font-weight: bold;
+    font-size: 30px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+}
+
+
+
+
+@media (max-width: 1482px) {
+
+    .titS{
+        font-size: 35px;
+    }
+    .inpS{
+    
+    width: 50%;
+    height: 25px;
+    margin-left: 40%;
+    margin-top: -4.5%;
+    display: block;
+    box-shadow: black 2px 2px 4px;
+        
+    }
+
+    .txtinputS{
+        font-size: 25px;
+    }
+  }
+
+
+  @media (max-width: 1200px) {
+    .formulario{
+        width: 70%;
+        margin-left: 17%;
+    }
+   
+    .titS{
+        font-size: 32px;
+    }
+
+    .cont1S{
+        margin-top: 30px;
+    }
+
+    .inpS{
+        width: 50%;
+    height: 25px;
+    margin-left: 40%;
+    margin-top: -4.5%;
+    display: block;
+    box-shadow: black 2px 2px 4px;
+    }
+
+    .txtinputS{
+        font-size: 20px;
+        margin-left: -2%;
+    }
+
+  }
+
+
+ 
+
+  @media (max-width: 950px) {
+ 
+    .titS{
+        font-size: 30px;
+    }
+
+    .cont1S{
+        margin-top: 20px;
+    }
+    .txtinputS{
+        
+        font-size: 22px;
+    }
+
+    .inpS{
+        width: 50%;
+    height: 25px;
+    margin-left: 40%;
+    margin-top: -4.5%;
+    display: block;
+    box-shadow: black 2px 2px 4px;
+    }
+    
+  }
+
+
+
+  
+  @media (max-width: 896px) {
+    .formulario{
+        height: 40%;
+    }
+    .titR{
+        font-size: 25px;
+    }
+
+    .cont1R{
+        margin-top: 30px;
+    }
+    .txtinputR{
+        
+        font-size: 18px;
+    }
+
+    .inpR{
+        width: 50%;
+        height: 25px;
+        margin-left: 45%;
+        margin-top: -7.5%;
+        display: block;
+        box-shadow: black 2px 2px 4px;
+    }
+    
+  }
+

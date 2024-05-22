@@ -31,8 +31,8 @@ const Cont = () => {
       </div>
 
       <div className="cont">
-      <NavLink to="/" className="caja">
-          <div className="texto"></div>
+      <NavLink to="/Supresion" className="caja">
+          <div className="texto">SUPRESION</div>
         </NavLink>
 
         <NavLink to="/Actualizar" className="caja">

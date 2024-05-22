@@ -8,6 +8,7 @@ import React, { useState } from 'react';
 import { FormRev } from '../FormRev';
 import { FormRevMen } from '../FormRevMen';
 import { FormRepDe } from '../FormRepDe';
+import { FormSupresion } from '../FormSupresion';
 // import {InicioSesion} from '../InicioSesion'
 function App() {
 
@@ -24,6 +25,7 @@ function App() {
           
           <Route path="/Revocatoria" element={<FormRev estado={estado} setEstado={setEstado}/> } />
           <Route path="/RevMen" element={<FormRevMen estado={estado} setEstado={setEstado}/> } />
+          <Route path="/Supresion" element={<FormSupresion estado={estado} setEstado={setEstado}/> } />
           <Route path="/RepDe" element={<FormRepDe estado={estado} setEstado={setEstado}/> } />
           <Route path="/Actualizar" element={<FormAct estado={estado} setEstado={setEstado}/> } />
           
