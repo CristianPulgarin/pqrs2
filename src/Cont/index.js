@@ -32,7 +32,7 @@ const Cont = () => {
 
       <div className="cont">
       <NavLink to="/Supresion" className="caja">
-          <div className="texto">SUPRESION</div>
+          <div className="texto">SUPRESIÓN PARCIAL</div>
         </NavLink>
 
         <NavLink to="/Actualizar" className="caja">

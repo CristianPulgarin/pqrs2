@@ -54,8 +54,8 @@ const TextSupresion = (props) => {
       
       </div>
       <div className="contS2">
-      <label className="txtb">Ocultar nombre</label> {tel ? (<><div className="containerbtn"><button className="btn_activo" onClick={ocultarTelefono} id="b" type="checkbox"></button></div></>) : <><div className="containerbtn"><button className="btn_inactivo" onClick={ocultarTelefono} id="b" type="checkbox"></button></div></>} 
-      <label className="txtb">Ocultar cedula</label> {cor ? (<><div className="containerbtn"><button className="btn_activo" onClick={ocultarCor} id="c" type="checkbox"></button></div></>) : <><div className="containerbtn"><button className="btn_inactivo" onClick={ocultarCor} id="c" type="checkbox"></button></div></>} 
+      <label className="txtb">Ocultar celular</label> {tel ? (<><div className="containerbtn"><button className="btn_activo" onClick={ocultarTelefono} id="b" type="checkbox"></button></div></>) : <><div className="containerbtn"><button className="btn_inactivo" onClick={ocultarTelefono} id="b" type="checkbox"></button></div></>} 
+      <label className="txtb">Ocultar Correo</label> {cor ? (<><div className="containerbtn"><button className="btn_activo" onClick={ocultarCor} id="c" type="checkbox"></button></div></>) : <><div className="containerbtn"><button className="btn_inactivo" onClick={ocultarCor} id="c" type="checkbox"></button></div></>} 
       
       </div>
       </div>   
