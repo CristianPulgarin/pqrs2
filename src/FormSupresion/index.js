@@ -18,6 +18,9 @@ const mesTexto = meses[month]
     const [caso,setCaso] = useState('')
     const [fecha,setFecha] = useState('')
     const [nombre,setNombre] = useState('');
+    const [cedula,setCedula] = useState('');
+    const [celular,setCelular] = useState('');
+    const [email,setEmail] = useState('');
     const [marca,setMarca] = useState('')
 
     const manejarSubmit = (event) => {
@@ -31,6 +34,11 @@ const mesTexto = meses[month]
       setFecha(""); // Restablecer el valor del campo "Fecha solicitud"
       setNombre(""); // Restablecer el valor del campo "Nombre usuario"
       setMarca(""); // Restablecer el valor del campo "Nombre Marca"
+      setNombre("");
+      setCedula("");
+      setCelular("");
+      setEmail("");
+
   };
     
   return (
@@ -49,6 +57,29 @@ const mesTexto = meses[month]
         onChange={(e)=>setCaso(e.target.value)}
         />
         <br/>
+        <label className="txtinputS">Cedula</label>
+        <input className="inpS"
+        required
+        value={cedula}
+        onChange={(e)=>setCedula(e.target.value)}
+        />
+        <br/>
+        
+        <label className="txtinputS">Celular</label>
+        <input className="inpS"
+        required
+        value={celular}
+        onChange={(e)=>setCelular(e.target.value)}
+        />
+        <br/>
+        
+        <label className="txtinputS">Email</label>
+        <input className="inpS"
+        required
+        value={email}
+        onChange={(e)=>setEmail(e.target.value)}
+        />
+        <br/>
       <label className="txtinputS">Fecha solicitud</label>
         <input className="inpS"
         required
@@ -57,7 +88,7 @@ const mesTexto = meses[month]
         />
       <br/>
         
-        <label className="txtinputS">Nombre usuario</label>
+        <label className="txtinputS">Nombre Completo</label>
         <input className="inpS"
         required
         value={nombre}
@@ -82,7 +113,8 @@ const mesTexto = meses[month]
       </form>
       
       <TextSupresion mes={mesTexto} day={day} year={year} caso={caso} fecha={fecha} 
-      nombre={nombre}  marca={marca} estado={props.estado} setEstado={props.setEstado}/>
+      nombre={nombre}  marca={marca} estado={props.estado} cedula={cedula} email={email}
+      celular={celular} setEstado={props.setEstado}/>
     </>
   );
 };

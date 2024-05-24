@@ -48,21 +48,21 @@ const TextSupresion = (props) => {
    
     <div className="conteR" >
     <div className="botones">
-      <div className="cont1">
-      {nom ? (<></>) : <></>} <label className="txtb">Ocultar nombre <button className="btn_activo" onClick={ocultarNombre} id="b" type="checkbox"></button></label>
-      <label className="txtb">Ocultar cedula<button className="btn_activo" onClick={ocultarCedula} id="b" type="checkbox"></button></label>
+      <div className="contS1">
+      <label className="txtb">Ocultar nombre</label> {nom ? (<><div className="containerbtn"><button className="btn_activo" onClick={ocultarNombre} id="b" type="checkbox"></button></div></>) : <><div className="containerbtn"><button className="btn_inactivo" onClick={ocultarNombre} id="b" type="checkbox"></button></div></>} 
+      <label className="txtb">Ocultar cedula</label> {ced ? (<><div className="containerbtn"><button className="btn_activo" onClick={ocultarCedula} id="c" type="checkbox"></button></div></>) : <><div className="containerbtn"><button className="btn_inactivo" onClick={ocultarCedula} id="c" type="checkbox"></button></div></>} 
+      
       </div>
-      <div className="cont2">
-      <label className="txtb">Ocultar Telefono<button className="btn_activo" onClick={ocultarTelefono} id="b" type="checkbox"></button>
-        </label>
-      <label className="txtb">Ocultar correo<button className="btn_activo" onClick={ocultarCor} id="b" type="checkbox"></button>
-      </label>
+      <div className="contS2">
+      <label className="txtb">Ocultar nombre</label> {tel ? (<><div className="containerbtn"><button className="btn_activo" onClick={ocultarTelefono} id="b" type="checkbox"></button></div></>) : <><div className="containerbtn"><button className="btn_inactivo" onClick={ocultarTelefono} id="b" type="checkbox"></button></div></>} 
+      <label className="txtb">Ocultar cedula</label> {cor ? (<><div className="containerbtn"><button className="btn_activo" onClick={ocultarCor} id="c" type="checkbox"></button></div></>) : <><div className="containerbtn"><button className="btn_inactivo" onClick={ocultarCor} id="c" type="checkbox"></button></div></>} 
+      
       </div>
       </div>   
-   <p className="textR" ref={textRef}> 
+   <p className="textS" ref={textRef}> 
 
     Medellín, {props.day} de {props.mes} de {props.year}<br/><br/>
-    Señora {props.nombre}<br/><br/>
+    Señor(a) {props.nombre}<br/><br/>
     Titular de los datos
 
     Referencia: Radicado {props.caso}<br/>
@@ -84,8 +84,9 @@ const TextSupresion = (props) => {
     
     {nom  ? (<>Nombre completo:  {props.nombre}   <br></br></>) : ''}
     {ced ? (<>Cedula: {props.cedula} <br/> </>) : ''} 
-    {tel ? (<>Telefono: {props.telefono} <br/> </>) : ''} 
+    {tel ? (<>Telefono: {props.celular} <br/> </>) : ''} 
     {cor ? (<>Email: {props.email} <br/><br/></>): ''}
+    <br/>
           Cordialmente,<br/>
           {props.marca}
           <br/>
