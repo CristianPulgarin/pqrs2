@@ -46,7 +46,7 @@
 
 .txtb{
     font-size:30px;
-    margin: 28px;
+    margin: 20px;
     margin-top: 10px;
     text-align: center;
 }
@@ -66,3 +66,159 @@
     font-family: 'Times New Roman', Times, serif;
    margin-top: -10px;
 }
+
+@media (max-width: 1068px) {
+
+    .btn_activo{
+        width: 35px;
+        height: 25px;
+        border-radius: 50px;
+        margin-left: 25px;
+        background-color: rgb(61, 234, 61);
+    
+    }
+    
+    .btn_inactivo{
+        width: 35px;
+        height: 25px;
+        border-radius: 50px;
+        margin-left: -25px;
+        background-color: rgb(243, 90, 84);
+    
+    }
+    
+    .txtb{
+        font-size:25px;
+        margin: 18px;
+        margin-top: 10px;
+        text-align: center;
+    }
+
+}
+
+
+@media (max-width: 862px) {
+
+    
+.containerbtn{
+    flex-wrap: wrap;
+    justify-content: center;
+    display: flex;
+    margin-top: 20px;
+    height: 25px;
+    width: 60px;
+    border-radius: 50px;
+    background-color: black;
+}
+    .btn_activo{
+        width: 30px;
+        height: 25px;
+        border-radius: 50px;
+        margin-left: 25px;
+        background-color: rgb(61, 234, 61);
+    
+    }
+    
+    .btn_inactivo{
+        width: 30px;
+        height: 25px;
+        border-radius: 50px;
+        margin-left: -25px;
+        background-color: rgb(243, 90, 84);
+    
+    }
+    
+    .txtb{
+        font-size:23px;
+        margin: 18px;
+        margin-top: 10px;
+        text-align: center;
+    }
+
+}
+
+
+@media (max-width: 786px) {
+
+    
+    .containerbtn{
+        flex-wrap: wrap;
+        justify-content: center;
+        display: flex;
+        margin-top: 20px;
+        height: 20px;
+        width: 50px;
+        border-radius: 50px;
+        background-color: black;
+    }
+    
+    .btn_activo{
+            width: 30px;
+            height: 20px;
+            border-radius: 50px;
+            margin-left: 18px;
+            background-color: rgb(61, 234, 61);
+        
+        }
+        
+    .btn_inactivo{
+            width: 30px;
+            height: 20px;
+            border-radius: 50px;
+            margin-left: -18px;
+            background-color: rgb(243, 90, 84);
+        
+        }
+        
+        .txtb{
+            font-size:20px;
+            margin: 10px;
+            margin-top: 10px;
+            text-align: center;
+        }
+    
+    }
+
+
+    
+@media (max-width: 640px) {
+
+    
+    .containerbtn{
+        flex-wrap: wrap;
+        margin-left: 10px;
+        display: flex;
+        margin-top: 20px;
+        height: 20px;
+        width: 50px;
+        border-radius: 50px;
+        background-color: black;
+    }
+    
+    .btn_activo{
+            width: 30px;
+            height: 20px;
+            border-radius: 50px;
+            margin-left: 18px;
+            background-color: rgb(61, 234, 61);
+        
+        }
+        
+    .btn_inactivo{
+            width: 30px;
+            height: 20px;
+            border-radius: 50px;
+            margin-left: -18px;
+            background-color: rgb(243, 90, 84);
+        
+        }
+        
+        .txtb{
+            font-size:20px;
+            margin: 25px;
+            margin-left: 50px;
+            margin-top: 10px;
+            text-align: center;
+        }
+    
+    }
